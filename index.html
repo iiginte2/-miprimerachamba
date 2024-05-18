@@ -42,16 +42,33 @@
 			</div>
 
 			<div class="container-navbar">
-				<nav class="navbar container">
-					<i class="fa-solid fa-bars"></i>
-					<ul class="menu">
-						<li><a href="/index.html">Inicio</a></li>
-						<li><a href="/html/gallery.html">Sandwich</a></li>
-						<li><a href="html/gallery2.html">Jugos</a></li>
-						<li><a href="/html/gallery3.html">Té e Infusiones</a></li>
-						<li><a href="/html/gallery4.html">Café</a></li>
-						<li><a target="_blank" href="https://araucaniacaffe.blogspot.com/">Blog</a></li>
-					</ul>
+				<nav class="
+			  navbar container" id="myTopnav">
+				  <i class="fa-solid fa-bars menu-toggle"></i>
+				  <ul class="menu">
+					<li><a href="/index.html">Inicio</a></li>
+					<li><a href="/html/gallery.html
+			  ">Sandwich</a></li>
+					<li><a href="html/gallery2.html">Jugos</a></li>
+					<li><a href="/html/gallery3.html">Té e Infusiones</a></li>
+					<li><a href="/html/gallery4.html">Café</a></li>
+					<li><a target="_blank" href="https://araucaniacaffe.blogspot.com/">Blog</a></li>
+				  </ul>
+				</nav>
+			  </div>
+			  
+			  <script>
+				function toggleMenu() {
+				  var x = document.getElementById("myTopnav");
+				  if (x.classList.contains("responsive")) {
+					x.classList.remove("responsive");
+				  } else {
+					x.classList.add("responsive");
+				  }
+				}
+				// Add event listener to the toggle button
+				document.querySelector(".menu-toggle").addEventListener("click", toggleMenu);
+			  </script>
 
 					<form class="search-form">
 						<input type="search" placeholder="Buscar..." />

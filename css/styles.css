@@ -16,6 +16,22 @@ html {
 	padding: 0;
 	box-sizing: border-box;
 }
+css
+@media screen and (max-width: 768px) {
+  .container-navbar {
+    display: flex;
+    flex-direction: column;
+  }
+  .navbar {
+    width: 100%;
+  }
+  .menu {
+    display: none;
+  }
+  .fa-bars {
+    display: block;
+  }
+}
 
 /* ********************************** */
 /*             UTILIDADES             */
@@ -109,6 +125,7 @@ html {
 /* ************* NAVBAR ************* */
 .container-navbar {
 	background-color: var(--primary-color);
+	overflow: hidden;
 }
 
 .navbar {
@@ -200,7 +217,28 @@ html {
 .btn-search i {
 	font-size: 2rem;
 	color: #fff;
+
 }
+@media screen and (max-width: 768px) {
+	.container-navbar {
+	  display: flex;
+	  flex-direction: column;
+	}
+	.navbar {
+	  width: 100%;
+	}
+	.menu {
+	  display: none;
+	}
+	.fa-bars {
+		display: none; /* Inherit from previous styles */
+	}
+}
+	@media screen and (max-width: 768px) {
+		.fa-bars {
+			display: block; /* Show hamburger menu on small screens */
+		}
+	}
 
 /* ********************************** */
 /*               BANNER               */
