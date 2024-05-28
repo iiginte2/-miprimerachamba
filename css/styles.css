@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
 :root {
 	--primary-color: #ef8a2a;
@@ -15,22 +15,6 @@ html {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-}
-css
-@media screen and (max-width: 768px) {
-  .container-navbar {
-    display: flex;
-    flex-direction: column;
-  }
-  .navbar {
-    width: 100%;
-  }
-  .menu {
-    display: none;
-  }
-  .fa-bars {
-    display: block;
-  }
 }
 
 /* ********************************** */
@@ -125,7 +109,6 @@ css
 /* ************* NAVBAR ************* */
 .container-navbar {
 	background-color: var(--primary-color);
-	overflow: hidden;
 }
 
 .navbar {
@@ -217,35 +200,14 @@ css
 .btn-search i {
 	font-size: 2rem;
 	color: #fff;
-
 }
-@media screen and (max-width: 768px) {
-	.container-navbar {
-	  display: flex;
-	  flex-direction: column;
-	}
-	.navbar {
-	  width: 100%;
-	}
-	.menu {
-	  display: none;
-	}
-	.fa-bars {
-		display: none; /* Inherit from previous styles */
-	}
-}
-	@media screen and (max-width: 768px) {
-		.fa-bars {
-			display: block; /* Show hamburger menu on small screens */
-		}
-	}
 
 /* ********************************** */
 /*               BANNER               */
 /* ********************************** */
 .banner {
 	background-image: linear-gradient(100deg, #000000, #00000020),
-		url('/img/banner.jpg');
+		url('img/banner.jpg');
 	height: 60rem;
 	background-size: cover;
 	background-position: center;

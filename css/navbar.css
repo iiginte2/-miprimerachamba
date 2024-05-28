@@ -1,0 +1,38 @@
+/* Ocultar el menú por defecto en pantallas pequeñas */
+.menu {
+    display: none;
+    flex-direction: column;
+}
+
+/* Mostrar el menú cuando se agrega la clase show-menu */
+.menu.show-menu {
+    display: flex;
+}
+
+/* Estilos adicionales para asegurar una buena apariencia en dispositivos pequeños */
+@media (max-width: 768px) {
+    .navbar {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .fa-bars {
+        display: block;
+        cursor: pointer;
+    }
+
+    .menu {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .menu li {
+        width: 100%;
+        text-align: center;
+    }
+
+    .menu.show-menu {
+        display: flex;
+    }
+}
