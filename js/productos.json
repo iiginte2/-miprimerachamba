@@ -1,0 +1,62 @@
+[
+    {
+        "id": "cafe-01",
+        "titulo": "Café Australiano",
+        "imagen": "./img/cafe/01.jpg",
+        "categoria": {
+            "nombre": "Café",
+            "id": "cafe"
+        },
+        "precio": 3200
+    },
+    {
+        "id": "cafe-02",
+        "titulo": "Café Helado",
+        "imagen": "./img/cafe/02.jpg",
+        "categoria": {
+            "nombre": "Café",
+            "id": "cafe"
+        },
+        "precio": 5600
+    },
+    {
+        "id": "cafe-03",
+        "titulo": "Café Inglés",
+        "imagen": "./img/cafe/03.jpg",
+        "categoria": {
+            "nombre": "Café",
+            "id": "cafe"
+        },
+        "precio": 5700
+    },
+    {
+        "id": "cafe-04",
+        "titulo": "Café Irish",
+        "imagen": "./img/cafe/04.jpg",
+        "categoria": {
+            "nombre": "Café",
+            "id": "cafe"
+        },
+        "precio": 4600
+    },
+    {
+        "id": "cafe-05",
+        "titulo": "Café Liqueurs",
+        "imagen": "./img/cafe/05.jpg",
+        "categoria": {
+            "nombre": "Café",
+            "id": "cafe"
+        },
+        "precio": 5600
+    },
+    {
+        "id": "cafe-06",
+        "titulo": "Café Viena",
+        "imagen": "./img/cafe/06.jpg",
+        "categoria": {
+            "nombre": "Café",
+            "id": "cafe"
+        },
+        "precio": 3850
+    }
+]

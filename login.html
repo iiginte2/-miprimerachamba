@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="/css/login.css">
+    
+    <title>Login</title>
+</head>
+<body>
+    <div class="login-container">
+        <div class="login-info-container">
+            <h1 class="title">Ingresa con</h1>
+            <div class="social-login">
+                <div class="social-login-element">
+                    <img src="/img/login/google.svg" alt="google-image">
+                    <span>Google</span>
+                </div>
+                <div class="social-login-element">
+                    <img src="/img/login/icons8-microsoft-outlook-2019-800.svg" alt="facebook-image">
+                    <span>Outlook</span>
+                </div>
+            </div>
+            <p>o</p>
+            <form class="inputs-container">
+                <input class="input" type="text" placeholder="Username">
+                <input class="input" type="text" placeholder="Password">
+                <p>¿Olvidaste tu contraseña? <span class="span">Haz click aquí</span></p>
+                <button class="btn" type="submit">login</button>
+                <p>¿No tienes una cuenta? <span class="span">Registrate</span></p>
+                <button class="btn-home" type="button" onclick="goToHome()">Volver a Inicio</button>
+            </form>
+        </div>
+        <img class="image-container" src="img/login/login.svg" alt="">
+    </div>
+
+    <script>
+        function goToHome() {
+            window.location.href = 'index.html';
+        }
+    </script>
+</body>
+</html>

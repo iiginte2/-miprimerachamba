@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta
 			name="viewport"
-			content="width=device-width, initial-scale=1.0"
-		/>
+			content="width=device-width, initial-scale=1.0">
 		<title>Araucanía Caffe		</title>
-		<link rel="stylesheet" href="/css/styles.css" />
+		<link rel="stylesheet" href="/css/styles.css">
+		<link rel="stylesheet" href="/css/navbar.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 	</head>
 	<body>
 		<header>
@@ -28,54 +29,38 @@
 					</div>
 
 					<div class="container-user">
-						<i class="fa-solid fa-user"></i>
-						<span class="text"><a href="/html/login.html" alt="login">Ingresa</a></span>
-						<br>
-						<span class="text">Registrate</span>
-						<i class="fa-solid fa-basket-shopping"></i>
-						<div class="content-shopping-cart">
-							<span class="text">Carrito</span>
-							<span class="number">(0)</span>
+						<i class="fa-solid fa-user" onclick="redirectToLogin()"></i>
+        <i class="fa-solid fa-basket-shopping" onclick="redirectToCart()"></i>
+        <div class="content-shopping-cart">
+            <span class="text">Carrito</span>
+            <span class="number">(0)</span>
+			<script>
+				function redirectToLogin() {
+					window.location.href = 'login.html';
+				}
+		
+				function redirectToCart() {
+					window.location.href = 'carrito.html';
+				}
+			</script>
 						</div>
 					</div>
 				</div>
 			</div>
-
+<!--barra de navegación responsive, tiene su propio css-->
 			<div class="container-navbar">
-				<nav class="
-			  navbar container" id="myTopnav">
-				  <i class="fa-solid fa-bars menu-toggle"></i>
-				  <ul class="menu">
-					<li><a href="/index.html">Inicio</a></li>
-					<li><a href="/html/gallery.html
-			  ">Sandwich</a></li>
-					<li><a href="html/gallery2.html">Jugos</a></li>
-					<li><a href="/html/gallery3.html">Té e Infusiones</a></li>
-					<li><a href="/html/gallery4.html">Café</a></li>
-					<li><a target="_blank" href="https://araucaniacaffe.blogspot.com/">Blog</a></li>
-				  </ul>
-				</nav>
-			  </div>
-			  
-			  <script>
-				function toggleMenu() {
-				  var x = document.getElementById("myTopnav");
-				  if (x.classList.contains("responsive")) {
-					x.classList.remove("responsive");
-				  } else {
-					x.classList.add("responsive");
-				  }
-				}
-				// Add event listener to the toggle button
-				document.querySelector(".menu-toggle").addEventListener("click", toggleMenu);
-			  </script>
-
-					<form class="search-form">
-						<input type="search" placeholder="Buscar..." />
-						<button class="btn-search">
-							<i class="fa-solid fa-magnifying-glass"></i>
-						</button>
-					</form>
+				<nav class="navbar container">
+					<i class="fa-solid fa-bars"></i>
+					<ul class="menu">
+						<li><a href="./index.html">Inicio</a></li>
+						<li><a href="gallery.html">Tienda</a></li>
+						<!--<li><a href="#">Jugos</a></li>
+						<li><a href="#">Té e Infusiones</a></li>
+						<li><a href="#">Café</a></li>
+						<li><a href="#">Blog</a></li>-->
+					</ul>
+<!-- esta es la barra de busqueda, aun en contrucción-->
+					
 				</nav>
 			</div>
 		</header>
@@ -83,11 +68,11 @@
 		<section class="banner">
 			<div class="content-banner">
 				<p>Café Delicioso</p>
-				<h2>100% Natural <br />Café Fresco</h2>
+				<h2>100% Natural <br>Café Fresco</h2>
 				<a href="#">Comprar ahora</a>
 			</div>
 		</section>
-
+<!--barra de promociones especificas-->
 		<main class="main-content">
 			<section class="container container-features">
 				<div class="card-feature">
@@ -119,7 +104,7 @@
 					</div>
 				</div>
 			</section>
-
+<!--sección de categorias top-->
 			<section class="container top-categories">
 				<h1 class="heading-1">Mejores Categorías</h1>
 				<div class="container-categories">
@@ -215,7 +200,7 @@
 							<p class="price">$5700 <span>$7300</span></p>
 						</div>
 					</div>
-					<!--  -->
+					<!-- Producto 3 -->
 					<div class="card-product">
 						<div class="container-img">
 							<img
@@ -249,7 +234,7 @@
 							<p class="price">$3200</p>
 						</div>
 					</div>
-					<!--  -->
+					<!-- Producto 4 -->
 					<div class="card-product">
 						<div class="container-img">
 							<img src="img/cafe-helado.jpg" alt="Cafe Helado" />
@@ -282,7 +267,7 @@
 					</div>
 				</div>
 			</section>
-
+<!--galeria-->
 			<section class="gallery">
 				<img
 					src="img/gallery1.jpg"
@@ -378,7 +363,7 @@
 							<p class="price">$5700 <span>$7300</span></p>
 						</div>
 					</div>
-					<!--  -->
+					<!--Producto 3-->
 					<div class="card-product">
 						<div class="container-img">
 							<img src="img/cafe-viena.jpg" alt="Cafe Viena" />
@@ -410,7 +395,7 @@
 							<p class="price">$3850 <span>$5500</span></p>
 						</div>
 					</div>
-					<!--  -->
+					<!--Producto 4-->
 					<div class="card-product">
 						<div class="container-img">
 							<img src="img/cafe-liqueurs.jpg" alt="Cafe Liqueurs" />
@@ -443,7 +428,7 @@
 					</div>
 				</div>
 			</section>
-
+<!--sección de blogs-->
 			<section class="container blogs">
 				<h1 class="heading-1">Últimos Blogs</h1>
 
@@ -460,13 +445,18 @@
 								</span>
 							</div>
 						</div>
+						<!--blog 1-->
 						<div class="content-blog">
-							<h3>La Cafetería del Estudiante: Un Oasis en el Corazón del C.F.T Araucania</h3>
-							<span>17 de Mayo 2024</span>
+							<h3>Lorem, ipsum dolor sit</h3>
+							<span>15 de Mayo 2024</span>
 							<p>
-								La nueva cafetería del instituto ofrece un ambiente acogedor, un variado menú y un innovador servicio de entrega, convirtiéndose en un oasis esencial para los estudiantes.
+								Lorem ipsum dolor sit amet consectetur adipisicing
+								elit. Iste, molestiae! Ratione et, dolore ipsum
+								quaerat iure illum reprehenderit non maxime amet dolor
+								voluptas facilis corporis, consequatur eius est sunt
+								suscipit?
 							</p>
-							<div class="btn-read-more"><a href="https://araucaniacaffe.blogspot.com/2024/05/la-cafeteria-del-estudiante-un-oasis-en.html" target="_blank"> Leer más</a></div>
+							<div class="btn-read-more">Leer más</div>
 						</div>
 					</div>
 					<div class="card-blog">
@@ -481,6 +471,7 @@
 								</span>
 							</div>
 						</div>
+						<!--blog 2-->
 						<div class="content-blog">
 							<h3>Lorem, ipsum dolor sit</h3>
 							<span>15 de Mayo 2024</span>
@@ -506,6 +497,7 @@
 								</span>
 							</div>
 						</div>
+						<!--blog 3-->
 						<div class="content-blog">
 							<h3>Lorem, ipsum dolor sit</h3>
 							<span>29 Abril 2024</span>
@@ -522,7 +514,7 @@
 				</div>
 			</section>
 		</main>
-
+<!--seccion de footer-->
 		<footer class="footer">
 			<div class="container container-footer">
 				<div class="menu-footer">
@@ -591,20 +583,31 @@
 						</div>
 					</div>
 				</div>
-
+<!--copyright muy importante para evitar la robación y darte a conocer-->
 				<div class="copyright">
 					<p>
-						Desarrollado por iignite2 &copy; 2024
+						Desarrollado por iignite &copy; 2024
 					</p>
 
 					<img src="img/payment.png" alt="Pagos">
 				</div>
 			</div>
 		</footer>
-
+<!--llama al kit de desarrollo de fuentes fa-->
 		<script
 			src="https://kit.fontawesome.com/81581fb069.js"
 			crossorigin="anonymous"
 		></script>
+		<!--script de acción para el hamburguer del navbar-->
+		<script>
+			document.addEventListener("DOMContentLoaded", function() {
+				const menuIcon = document.querySelector(".fa-bars");
+				const menu = document.querySelector(".menu");
+		
+				menuIcon.addEventListener("click", function() {
+					menu.classList.toggle("show-menu");
+				});
+			});
+		</script>
 	</body>
 </html>

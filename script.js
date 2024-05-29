@@ -1,10 +1,11 @@
+// este codigo realiza los estios hover sobre la galleria
 let mostrador = document.getElementById("mostrador");
 let seleccion = document.getElementById("seleccion");
 let imgSeleccionada = document.getElementById("img");
 let modeloSeleccionado = document.getElementById("modelo");
 let descripSeleccionada = document.getElementById("descripcion");
 let precioSeleccionado = document.getElementById("precio");
-
+//realiza varias acciones de manipulación del DOM dependiendo de la acción del usuario
 function cargar(item){
     quitarBordes();
     mostrador.style.width = "60%";

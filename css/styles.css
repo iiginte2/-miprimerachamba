@@ -1,4 +1,4 @@
-@@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
 :root {
 	--primary-color: #ef8a2a;
@@ -139,7 +139,7 @@ html {
 	text-transform: uppercase;
 	position: relative;
 }
-
+/*al hacer hover*/
 .menu a::after {
 	content: '';
 	width: 1.5rem;
@@ -176,7 +176,7 @@ html {
 	outline: none;
 	font-family: inherit;
 	border: none;
-	width: 25rem;
+	width: 10rem;
 	font-size: 1.4rem;
 	padding: 0 2rem;
 	color: #777;
