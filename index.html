@@ -10,6 +10,19 @@
 		<link rel="stylesheet" href="/css/styles.css">
 		<link rel="stylesheet" href="/css/navbar.css">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+		<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+		<!--<style>
+			@media (max-width: 768px) {
+			  .flickity-viewport {
+				height: 100vh;
+			  }
+			  .flickity-prev-next-button {
+				display: none;
+			  }
+			}
+			</style>-->
+			
+		<link href="https://unpkg.com/flickity@2/dist/flickity.min.css" rel="stylesheet">
 	</head>
 	<body>
 		<header>
@@ -510,8 +523,14 @@
 							</p>
 							<div class="btn-read-more">Leer más</div>
 						</div>
+						
 					</div>
 				</div>
+				<div
+				class="carousel-navigation">
+				   <button class="flickity-prev-next-button previous-button">Previous</button>
+				   <button class="flickity-prev-next-button next-button">Next</button>
+				 </div>	
 			</section>
 		</main>
 <!--seccion de footer-->
@@ -609,5 +628,19 @@
 				});
 			});
 		</script>
+		<script>
+			const carousel = new Flickity('.container-blogs', {
+			  // Options
+			});
+			const previousButton = document.querySelector('.previous-button');
+			const nextButton = document.querySelector('.next-button');
+			previousButton.addEventListener('click', () => {
+			  carousel.previous();
+			});
+			nextButton.addEventListener('click', () => {
+			  carousel.next();
+			});
+		  </script>
+		  
 	</body>
 </html>

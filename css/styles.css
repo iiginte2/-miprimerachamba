@@ -598,41 +598,90 @@ html {
 /* ********************************** */
 /*                BLOGS               */
 /* ********************************** */
+.flickity-prev-next-button {
+	width: 40px;
+	height: 40px;
+  }
+  
+  @media (max-width: 768px) {
+	.flickity-prev-next-button {
+	  width: 30px;
+	  height: 30px;
+	}
+  
+	.carousel-navigation {
+	  display: flex;
+	  justify-content: center;
+	  gap: 1rem;
+	}
+  }
+  
+  
+/* ********************************** */
+/*                BLOGS               */
+/* ********************************** */
 .blogs {
+  
 	display: flex;
-	flex-direction: column;
-	gap: 2rem;
-}
-
-.container-blogs {
-	display: grid;
-	grid-template-columns: repeat(3, 1fr);
-	gap: 3rem;
-}
-
-.card-blog {
-	display: flex;
-	flex-direction: column;
-	gap: 2rem;
-}
-
-.card-blog .container-img {
-	border-radius: 2rem;
-	cursor: pointer;
-	position: relative;
-	overflow: hidden;
-}
-
-.button-group-blog {
-	position: absolute;
-	bottom: 1.5rem;
-	right: -2.5rem;
-
-	display: flex;
-	gap: 0.7rem;
-	z-index: -1;
-	transition: all 0.3s ease;
-}
+	  flex-direction: column;
+	  gap: 10rem;
+	}
+	.container-blogs {
+		grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+		gap: 10rem;
+		overflow-x: scroll;
+		scroll-snap-type: x mandatory;
+	}
+	@media (max-width: 768px) {
+	  .container-blogs {
+		display: flex;
+		flex-direction: column;
+		gap: 10rem;
+	  }
+	}
+	.card-blog {
+	  max-width: 400px;
+	  display: flex;
+	  flex-direction: column;
+	  gap: 10rem;
+	}
+	/* New rule to show the blog on wide mode */
+	@media (min-width: 769px) {
+	  .blogs {
+		display: flex;
+	  }
+	}
+	.blogs {
+	  display: flex;
+	  flex-direction: column;
+	  gap: 10rem;
+	}
+	.container-blogs {
+	  display: flex;
+	  flex-direction: column;
+	  gap: 2rem;
+	  height: 52rem;
+	  overflow: hidden;
+	}
+	.card-blog {
+	  display: flex;
+	  flex-direction: column;
+	  gap: 2rem;
+	}
+	.card-blog .container-img {
+	  border-radius: 2rem;
+	  cursor: pointer;
+	  position: relative;
+	  overflow: hidden;
+	}
+	.button-group-blog {
+	  position: absolute;
+	  bottom: 1.5rem;
+	  right:
+	 -2.5rem;
+	  display: flex;
+	  gap: 0.7rem;
+	}	
 
 .card-blog:hover .button-group-blog {
 	z-index: 0;
@@ -664,9 +713,9 @@ html {
 
 .content-blog h3 {
 	font-size: 1.8rem;
-	margin-bottom: 1.7rem;
-	color: var(--dark-color);
-	font-weight: 500;
+    margin-bottom: 1.7rem;
+    color: var(--dark-color);
+    font-weight: 500;
 }
 
 .content-blog h3:hover {
@@ -972,6 +1021,14 @@ html {
 		align-items: center;
 		gap: 1.5rem;
 	}
+	/* este es una prueba del carousel */
+
+	.container-blogs {
+  		display: flex;
+  		flex-direction: column;
+ 		 gap: 2rem;
+}
+
 }
 
 /* ********************************** */
