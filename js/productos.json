@@ -88,5 +88,16 @@
             "id": "jugo"
         },
         "precio": 1500
+    },
+    {
+        "id": "sandwich-01",
+        "titulo": "Sub de la casa",
+        "imagen": "./img/sandwich/01.jpeg",
+        "categoria": {
+            "nombre": "Sandwich",
+            "id": "sandwich"
+        },
+        "precio": 3800
     }
+    
 ]
