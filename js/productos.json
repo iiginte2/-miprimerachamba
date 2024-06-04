@@ -81,8 +81,8 @@
     },
     {
         "id": "jugo-03",
-        "titulo": "Jugo Natural Sandia",
-        "imagen": "./img/jugo/01.jpeg",
+        "titulo": "Jugo Natural Sandía",
+        "imagen": "./img/jugo/03.jpeg",
         "categoria": {
             "nombre": "Jugo",
             "id": "jugo"
@@ -98,6 +98,86 @@
             "id": "sandwich"
         },
         "precio": 3800
+    },
+    {
+        "id": "sandwich-02",
+        "titulo": "Sub Atun",
+        "imagen": "./img/sandwich/02.jpeg",
+        "categoria": {
+            "nombre": "Sandwich",
+            "id": "sandwich"
+        },
+        "precio": 3800
+    },
+    {
+        "id": "sandwich-03",
+        "titulo": "Sandwich Jamón Queso",
+        "imagen": "./img/sandwich/03.png",
+        "categoria": {
+            "nombre": "Sandwich",
+            "id": "sandwich"
+        },
+        "precio": 2500
+    },
+    {
+        "id": "sandwich-04",
+        "titulo": "Sub de la casa",
+        "imagen": "./img/sandwich/04.png",
+        "categoria": {
+            "nombre": "Sandwich",
+            "id": "sandwich"
+        },
+        "precio": 3800
+    },
+    {
+        "id": "sandwich-05",
+        "titulo": "Hamburguesa Whopper",
+        "imagen": "./img/sandwich/05.png",
+        "categoria": {
+            "nombre": "Sandwich",
+            "id": "sandwich"
+        },
+        "precio": 7800
+    },
+    {
+        "id": "sandwich-06",
+        "titulo": "Sandwich Queso Caliente",
+        "imagen": "./img/sandwich/06.png",
+        "categoria": {
+            "nombre": "Sandwich",
+            "id": "sandwich"
+        },
+        "precio": 1850
+    },
+    {
+        "id": "sandwich-07",
+        "titulo": "Hamburguesa American Bacon",
+        "imagen": "./img/sandwich/07.png",
+        "categoria": {
+            "nombre": "Sandwich",
+            "id": "sandwich"
+        },
+        "precio": 8500
+    },
+    {
+        "id": "sandwich-08",
+        "titulo": "Shawarma",
+        "imagen": "./img/sandwich/08.png",
+        "categoria": {
+            "nombre": "Sandwich",
+            "id": "sandwich"
+        },
+        "precio": 4500
+    },
+    {
+        "id": "sandwich-09",
+        "titulo": "Submarino Jamon extra",
+        "imagen": "./img/sandwich/04.png",
+        "categoria": {
+            "nombre": "Sandwich",
+            "id": "sandwich"
+        },
+        "precio": 5500
     }
     
 ]

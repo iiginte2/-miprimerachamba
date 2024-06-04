@@ -48,7 +48,7 @@
         <i class="fa-solid fa-basket-shopping" onclick="redirectToCart()"></i>
         <div class="content-shopping-cart">
             <span class="text">Carrito</span>
-            <span class="number">(0)</span>
+            <span id="numerito" class="numerito">0</span>
 			<script>
 				function redirectToLogin() {
 					window.location.href = 'login.html';
@@ -610,7 +610,7 @@
 						Desarrollado por iignite &copy; 2024
 					</p>
 
-					<img src="img/payment.png" alt="Pagos">
+					<img src="img/payment2.png" alt="Pagos">
 				</div>
 			</div>
 		</footer>
@@ -642,7 +642,8 @@
 			nextButton.addEventListener('click', () => {
 			  carousel.next();
 			});
-		  </script>
-		  
+		</script>
+<script src="./js/main.js"></script>
+<script src="./js/menu.js"></script>
 	</body>
 </html>
