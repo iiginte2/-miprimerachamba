@@ -207,7 +207,7 @@ html {
 /* ********************************** */
 .banner {
 	background-image: linear-gradient(100deg, #000000, #00000020),
-		url('img/banner.jpg');
+		url('/img/banner.jpg');
 	height: 60rem;
 	background-size: cover;
 	background-position: center;
@@ -323,7 +323,7 @@ html {
 
 .category-moca {
 	background-image: linear-gradient(#00000080, #00000080),
-		url('img/moca-category.jpg');
+		url('/img/moca-category.jpg');
 	background-size: cover;
 	background-position: bottom;
 	background-repeat: no-repeat;
@@ -331,7 +331,7 @@ html {
 
 .category-capuchino {
 	background-image: linear-gradient(#00000080, #00000080),
-		url('img/capuchino-category.jpg');
+		url('/img/capuchino-category.jpg');
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -339,7 +339,7 @@ html {
 
 .category-expreso {
 	background-image: linear-gradient(#00000080, #00000080),
-		url('img/expreso-category.jpg');
+		url('/img/expreso-category.jpg');
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;

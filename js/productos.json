@@ -58,5 +58,35 @@
             "id": "cafe"
         },
         "precio": 3850
+    },
+    {
+        "id": "jugo-01",
+        "titulo": "Jugo Natural Naranja",
+        "imagen": "./img/jugo/01.jpeg",
+        "categoria": {
+            "nombre": "Jugo",
+            "id": "jugo"
+        },
+        "precio": 1500
+    },
+    {
+        "id": "jugo-02",
+        "titulo": "Jugo Natural Piña",
+        "imagen": "./img/jugo/02.jpeg",
+        "categoria": {
+            "nombre": "Jugo",
+            "id": "jugo"
+        },
+        "precio": 1500
+    },
+    {
+        "id": "jugo-03",
+        "titulo": "Jugo Natural Sandia",
+        "imagen": "./img/jugo/01.jpeg",
+        "categoria": {
+            "nombre": "Jugo",
+            "id": "jugo"
+        },
+        "precio": 1500
     }
 ]
