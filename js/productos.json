@@ -60,6 +60,16 @@
         "precio": 3850
     },
     {
+        "id": "cafe-07",
+        "titulo": "Chocolate Caliente",
+        "imagen": "./img/cafe/07.jpg",
+        "categoria": {
+            "nombre": "Café",
+            "id": "cafe"
+        },
+        "precio": 2500
+    },
+    {
         "id": "jugo-01",
         "titulo": "Jugo Natural Naranja",
         "imagen": "./img/jugo/01.jpeg",
@@ -88,6 +98,36 @@
             "id": "jugo"
         },
         "precio": 1500
+    },
+    {
+        "id": "jugo-04",
+        "titulo": "Nectar Watts Durazno",
+        "imagen": "./img/jugo/04.png",
+        "categoria": {
+            "nombre": "Jugo",
+            "id": "jugo"
+        },
+        "precio": 900
+    },
+    {
+        "id": "jugo-05",
+        "titulo": "Nectar Watts Naranja",
+        "imagen": "./img/jugo/05.png",
+        "categoria": {
+            "nombre": "Jugo",
+            "id": "jugo"
+        },
+        "precio": 900
+    },
+    {
+        "id": "jugo-06",
+        "titulo": "Smoothie Vivo Berries",
+        "imagen": "./img/jugo/06.png",
+        "categoria": {
+            "nombre": "Jugo",
+            "id": "jugo"
+        },
+        "precio": 900
     },
     {
         "id": "sandwich-01",
@@ -178,6 +218,215 @@
             "id": "sandwich"
         },
         "precio": 5500
+    },
+    {
+        "id": "dulce-01",
+        "titulo": "Donut glaseada",
+        "imagen": "./img/dulces/01.jpg",
+        "categoria": {
+            "nombre": "Dulces",
+            "id": "dulce"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "dulce-02",
+        "titulo": "Pie de limón",
+        "imagen": "./img/dulces/02.jpg",
+        "categoria": {
+            "nombre": "Dulces",
+            "id": "dulce"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "dulce-03",
+        "titulo": "Tiramisu",
+        "imagen": "./img/dulces/03.jpg",
+        "categoria": {
+            "nombre": "Dulces",
+            "id": "dulce"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "dulce-04",
+        "titulo": "Donut estrellada",
+        "imagen": "./img/dulces/04.jpg",
+        "categoria": {
+            "nombre": "Dulces",
+            "id": "dulce"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "dulce-05",
+        "titulo": "Muffing de chocolate",
+        "imagen": "./img/dulces/05.jpg",
+        "categoria": {
+            "nombre": "Dulces",
+            "id": "dulce"
+        },
+        "precio": 800
+    },
+    {
+        "id": "dulce-06",
+        "titulo": "Berlin con crema",
+        "imagen": "./img/dulces/06.jpg",
+        "categoria": {
+            "nombre": "Dulces",
+            "id": "dulce"
+        },
+        "precio": 800
+    },
+    {
+        "id": "dulce-07",
+        "titulo": "Donut Chocolate",
+        "imagen": "./img/dulces/07.jpg",
+        "categoria": {
+            "nombre": "Dulces",
+            "id": "dulce"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "dulce-08",
+        "titulo": "Torta de hojas",
+        "imagen": "./img/dulces/08.jpg",
+        "categoria": {
+            "nombre": "Dulces",
+            "id": "dulce"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "dulce-09",
+        "titulo": "Torta chocolate nuez",
+        "imagen": "./img/dulces/09.jpg",
+        "categoria": {
+            "nombre": "Dulces",
+            "id": "dulce"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "dulce-10",
+        "titulo": "Cheese cake frambuesa",
+        "imagen": "./img/dulces/10.jpg",
+        "categoria": {
+            "nombre": "Dulces",
+            "id": "dulce"
+        },
+        "precio": 1500
+    },
+    {
+        "id": "ensalada-01",
+        "titulo": "Hipocalórica 1",
+        "imagen": "./img/ensalada/01.jpg",
+        "categoria": {
+            "nombre": "Ensalada",
+            "id": "ensalada"
+        },
+        "precio": 2500
+    },
+    {
+        "id": "ensalada-02",
+        "titulo": "Hipocalórica 2",
+        "imagen": "./img/ensalada/02.jpg",
+        "categoria": {
+            "nombre": "Ensalada",
+            "id": "ensalada"
+        },
+        "precio": 2500
+    },
+    {
+        "id": "ensalada-03",
+        "titulo": "Hipocalórica 3",
+        "imagen": "./img/ensalada/03.jpg",
+        "categoria": {
+            "nombre": "Ensalada",
+            "id": "ensalada"
+        },
+        "precio": 2500
+    },
+    {
+        "id": "ensalada-04",
+        "titulo": "Hipocalórica 4",
+        "imagen": "./img/ensalada/04.jpg",
+        "categoria": {
+            "nombre": "Ensalada",
+            "id": "ensalada"
+        },
+        "precio": 2500
+    },
+    {   
+        "id": "ensalada-05",    
+        "titulo": "Hipocalórica 5",
+        "imagen": "./img/ensalada/05.jpg",
+        "categoria": {      
+            "nombre": "Ensalada",
+            "id": "ensalada"
+        },
+        "precio": 2500
+    },
+    {   
+        "id": "bebida-01",    
+        "titulo": "Coca cola zero lata",
+        "imagen": "./img/bebida/01.png",
+        "categoria": {      
+            "nombre": "Bebidas",
+            "id": "bebida"
+        },
+        "precio": 900
+    },
+    {   
+        "id": "bebida-02",    
+        "titulo": "Coca cola lata",
+        "imagen": "./img/bebida/02.png",
+        "categoria": {      
+            "nombre": "Bebidas",
+            "id": "bebida"
+        },
+        "precio": 900
+    },
+    {   
+        "id": "bebida-03",    
+        "titulo": "Sprite lata",
+        "imagen": "./img/bebida/03.png",
+        "categoria": {      
+            "nombre": "Bebidas",
+            "id": "bebida"
+        },
+        "precio": 900
+    },
+    {   
+        "id": "bebida-04",    
+        "titulo": "Score Gorilla lata",
+        "imagen": "./img/bebida/04.png",
+        "categoria": {      
+            "nombre": "Bebidas",
+            "id": "bebida"
+        },
+        "precio": 1190
+    },
+    {   
+        "id": "bebida-05",    
+        "titulo": "Energetica OneStrike Vegeta",
+        "imagen": "./img/bebida/05.png",
+        "categoria": {      
+            "nombre": "Bebidas",
+            "id": "bebida"
+        },
+        "precio": 1700
+    },
+    {   
+        "id": "bebida-06",    
+        "titulo": "Energetica OneStrike Goku",
+        "imagen": "./img/bebida/06.png",
+        "categoria": {      
+            "nombre": "Bebidas",
+            "id": "bebida"
+        },
+        "precio": 1700
     }
-    
 ]
